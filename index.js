@@ -350,4 +350,25 @@ firstFunction();
 calculate(1, 10, displayAlert);
 calculate(100, 10, displayAlert);
 
-/* Soon we will talk about the dom */
+/* Soon we will talk about the dom 
+
+Pull Request
+
+This tells others about changes you have pushed to a branch on a 
+Github repo.
+
+*/
+
+let cities = ["NYC", "London", "Paris", "Moscow"]
+
+cities.forEach(test3)
+
+function test3(item, index){
+    console.log(index + ":" + item)
+}
+
+let numbers = [1,2,3,4,9,16,25,36,49,64,81];
+
+let x4 =  numbers.map(y1 => y1 * 2) 
+
+console.log(x4);
