@@ -348,3 +348,4 @@ secondFunction();
 firstFunction();
 
 calculate(1, 10, displayAlert);
+calculate(100, 10, displayAlert);
